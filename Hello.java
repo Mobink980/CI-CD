@@ -8,6 +8,10 @@ public class Hello {
 			System.out.println("Goodbye");
 			arr[i] = i;
 		}
+		String str = "Welcome";
+		for (int i = 0; i < 5; i++){
+			System.out.print(arr[i] + " " + str);
+		}
 		
 	}
 
